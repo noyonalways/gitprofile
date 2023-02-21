@@ -16,7 +16,6 @@ const displaySection = (blog) => {
 
 const Blog = ({ loading, blog, googleAnalytics }) => {
   const [articles, setArticles] = useState(null);
-
   useEffect(() => {
     if (displaySection(blog)) {
       if (blog.source === 'medium') {
