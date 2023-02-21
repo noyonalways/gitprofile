@@ -2,7 +2,7 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
+    username: 'noyonalways', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
@@ -11,41 +11,40 @@ const config = {
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
-    facebook: '',
-    instagram: '',
+    linkedin: 'noyonalways',
+    twitter: 'noyonalways',
+    mastodon: '',
+    facebook: 'noyonalways',
+    instagram: 'noyonalways',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // format: userid/username
     skype: '',
-    telegram: '',
-    website: 'https://arifszn.com',
+    telegram: 'noyonalways',
+    website: 'https://noyonrahman.xyz',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'noyonrahman2003@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/u/0/uc?id=14j5wO5ClGtnjsYo_Nodovq0Fo6U14sHx&export=download', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
+    'HTML',
+    'CSS',
+    'Tailwind',
+    'Bootstrap',
+    'Python',
     'JavaScript',
     'React.js',
     'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
+    'Express.js',
+    'MongoDB',
+    'Firebase',
     'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'GitHub',
   ],
   experiences: [
     {
@@ -63,50 +62,56 @@ const config = {
       companyLink: 'https://example.com',
     },
   ],
-  /* certifications: [
+  certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com'
+      name: 'Complete Web Development Course By Jhankar Mahubub',
+      body: 'For the successful completion of the Complete Web Development course.',
+      year: 'September 2022',
+      link: 'https://drive.google.com/u/0/uc?id=1ZYbiRJ8icGV7LL_CAtOa38AX2VUYzNCY&export=download',
     },
-  ], */
+    {
+      name: 'Python Course 2021',
+      body: 'Certificate for completion with exclellence',
+      year: 'Augest 2021',
+      link: 'https://drive.google.com/u/0/uc?id=1ZNQ74mKLQHpQPPXE3bdK1euV-u0odUMu&export=download',
+    },
+  ],
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Taragonj H.N. Uchcha Madhyamic Bidyalaya',
+      degree: 'Higher Secondary Certificate, (HSC)',
+      from: '2022',
+      to: '2023',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Ranigonj High School',
+      degree: 'Secondary School Certificate, (SSC)',
+      from: '2016',
+      to: '2022',
     },
   ],
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Project Name',
+      title: 'Doctors Portal',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+      imageUrl: 'https://i.ibb.co/d2cMhsG/doctorsportal.png',
+      link: 'https://doctors-portal-mini.web.app/',
     },
     {
-      title: 'Project Name',
+      title: 'Picman Photography',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        'Independent service provider website - This is a website for a independent Photographer. The users c...',
+      imageUrl: 'https://i.ibb.co/TMTDqXj/picmman.png',
+      link: 'https://pic-man.web.app/',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    source: 'medium', // medium | dev
+    username: 'noyonalways', // to hide blog section, keep it empty
     limit: 2, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
