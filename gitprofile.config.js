@@ -18,7 +18,7 @@ const config = {
     instagram: 'noyonalways',
     dribbble: '',
     behance: '',
-    medium: '',
+    medium: 'noyonalways',
     dev: '',
     stackoverflow: '', // format: userid/username
     skype: '',
@@ -112,7 +112,7 @@ const config = {
   blog: {
     source: 'medium', // medium | dev
     username: 'noyonalways', // to hide blog section, keep it empty
-    limit: 2, // How many posts to display. Max is 10.
+    limit: 5, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
